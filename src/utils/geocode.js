@@ -1,5 +1,6 @@
 const request = require('request')
 
+//get lat long 
 const geocode = (address, callback) => {
     const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${address}.json?access_token=pk.eyJ1Ijoia2FuaXNoMDA3IiwiYSI6ImNqc3d2eHUwbDBnbGE0NHQzd3lzdW9hemMifQ.QSPrTWpxQYlZFUZlJCDcvg`;
 
